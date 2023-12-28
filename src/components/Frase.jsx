@@ -3,6 +3,7 @@ import Bart from '../assets/bart.png';
 
 
 const Frase = () => {
+
     return (
         <div className='border border-3 border-warning p-4'>
             <h1 className='text-light'>Bart Simpsons</h1>
