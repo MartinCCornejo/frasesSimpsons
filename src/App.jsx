@@ -1,10 +1,19 @@
+import { Button, Container } from 'react-bootstrap';
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import logo from './assets/logoSimpsons.png';
+import Frase from './components/Frase';
 
 function App() {
 
   return (
-    <h1>Hola mundo</h1>
+    <>
+    <Container className='text-center'>
+      <img src={logo} alt="Logo de los Simpsons" className='img-fluid'/>
+      <Frase></Frase>
+      <Button className='mt-3' variant="warning">Obtener Frase</Button>
+    </Container>
+    </>
   )
 }
 
