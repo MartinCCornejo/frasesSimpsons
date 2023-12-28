@@ -9,7 +9,7 @@ function App() {
   return (
     <>
     <Container className='text-center'>
-      <img src={logo} alt="Logo de los Simpsons" className='img-fluid'/>
+      <img src={logo} alt="Logo de los Simpsons" className='logo-img'/>
       <Frase></Frase>
       <Button className='mt-3' variant="warning">Obtener Frase</Button>
     </Container>

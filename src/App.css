@@ -1,5 +1,16 @@
 body{
-    background-color: #022ea3;
-    background-image: linear-gradient(135deg, #022ea3 0%, #171c5d 100%);
+    background-color: #0123af;
+    background-image: linear-gradient(45deg, #0123af 0%, #24245b 100%);
     min-height: 100vh;
+}
+
+.logo-img{
+    max-height: 220px;
+    max-width: 100%;
+    height: auto;
+}
+
+img{
+    max-height: 380px;
+    filter: drop-shadow(10px 10px 15px rgba(0,0,0,0.7));
 }
