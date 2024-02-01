@@ -1,19 +1,16 @@
 import React from 'react';
-import Bart from '../assets/bart.png';
 
-
-const Frase = () => {
-
+const Frase = ({personaje}) => {
     return (
-        <div className='border border-3 border-warning p-4'>
-            <h1 className='text-light'>Bart Simpsons</h1>
+        <article className='border border-3 border-warning p-4'>
+            <h1 className='text-light'>{personaje.character}</h1>
             <hr className='text-warning'/>
-            <img src={Bart} alt="Imagen de Bart Simpsons" className='img-fluid' />
-            <div className='p-3 bg-light'>
-                <p className='lead fs-2'>Ay caramba!</p>
-                <p className='text-secondary fw-light fs-5'>Bart Simpsons in The Simpsons</p>
+            <img src={personaje.image} alt={personaje.character} className='img-fluid' />
+            <div className='p-3 bg-light mt-3'>
+                <p className='lead fs-4'>{personaje.quote}</p>
+                <p className='text-secondary fw-light fs-5 fst-italic'>{personaje.character} in The Simpsons</p>
             </div>
-        </div>
+        </article>
     );
 };
 

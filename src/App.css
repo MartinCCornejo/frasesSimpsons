@@ -11,6 +11,6 @@ body{
 }
 
 img{
-    max-height: 380px;
+    max-height: 320px;
     filter: drop-shadow(10px 10px 15px rgba(0,0,0,0.7));
 }
